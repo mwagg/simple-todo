@@ -1,0 +1,37 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+input {
+    margin: 8px;
+}
+
+.todo-list {
+    border: solid 1px #eee;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.todo-app {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.todo-app h1 {
+    text-align: center;
+}
+
+.loading {
+    position: relative;
+}
+
+.loading::after {
+    content: url("spinner.gif");
+    position: absolute;
+    left: 168px;
+    top: 30%;
+}
